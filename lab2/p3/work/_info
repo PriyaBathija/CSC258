@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/priya/School/csc258/lab2/p3
+vsevenseg
+Z1 !s110 1506543212
+!i10b 1
+!s100 6<^YADWXI@69G0@8X^EX_2
+I5LA?3TP4;`NSK=o3Cf7ZG2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1506543203
+Z4 8sevenseg.v
+Z5 Fsevenseg.v
+L0 1
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1506543212.000000
+Z8 !s107 sevenseg.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|sevenseg.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vsevensegx
+R1
+!i10b 1
+!s100 _SVacB1[zMNW^2>6PL>_P0
+I:l;:B3]cDgCIT8TD@dWeS3
+R2
+R0
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/priya/School/csc258/lab2
+vmux
+Z1 !s110 1506465389
+!i10b 1
+!s100 ]cinPQanU1SCf^];Cn;VM3
+I>:jC]K=<lC96BUWLU_OXL1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1506465387
+Z4 84to1mux.v
+Z5 F4to1mux.v
+L0 6
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1506465389.000000
+Z8 !s107 4to1mux.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|4to1mux.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vmux2to1
+R1
+!i10b 1
+!s100 oCj@[R][hSKd]n:;oDa^k3
+I_:6FhRKcMb:1`K<`_SHed2
+R2
+R0
+R3
+R4
+R5
+L0 33
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
