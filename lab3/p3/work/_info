@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/priya/School/csc258/CSC258/lab3/p3
+valu
+Z1 !s110 1507152023
+!i10b 1
+!s100 kizk<f^CJz<3GW8]ckgC>1
+Ik<;9J7SeV=FZ5B5T;Sn?d3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1507152001
+Z4 8alu.v
+Z5 Falu.v
+L0 1
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1507152023.000000
+Z8 !s107 alu.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|alu.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+valum
+R1
+!i10b 1
+!s100 aLh^;;=S3_H`Z0D2R^G7T1
+IdbNkFRU=1hWDNoIze]C9V2
+R2
+R0
+R3
+R4
+R5
+L0 166
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfulladder
+R1
+!i10b 1
+!s100 8>Whl@JR@[A=L_alolZLZ1
+IoeK:XWSRzP]5To_Ejok3I0
+R2
+R0
+R3
+R4
+R5
+L0 102
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vhalfadder
+R1
+!i10b 1
+!s100 1m`oPQ@jhX6BOfj>D<4S]2
+I77NQ1BI?_PH9=2O?P:7Fo0
+R2
+R0
+R3
+R4
+R5
+L0 143
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsevenseg
+R1
+!i10b 1
+!s100 _C7mZQ@89EWL[QC=Nk;ah3
+IiPmg?YL:MnNCQSDTn6@AC2
+R2
+R0
+R3
+R4
+R5
+L0 152
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
