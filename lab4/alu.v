@@ -1,14 +1,30 @@
 module alu(SW, KEY, HEX0, HEX1,HEX2, HEX3, HEX4, HEX5, LEDR);
-	input [7:0] SW;
+	input [9:5] SW;
 	input [2:0] KEY;
 	input [6:0] HEX0;
-	input [6:0] HEX1;
-	input [6:0] HEX2;
-	input [6:0] HEX3;
 	input [6:0] HEX4;
 	input [6:0] HEX5;
 	output [7:0] LEDR;
+	wire [7:0] out;
+	wire clock;
+	wire reset_n;
+	
+	assign clock = KEY[0];
+	assign reset_n = SW[9];
+	
+	reg [7:0] out;
 	wire [7:0] wire5;
+	regi r0(
+		.d(out[7:0]),
+		.clk(KEY[0]),
+		.reset_n(SW[9]),
+		.q(wire5)
+	);
+	
+	alum a1(SW[3:0], out[3:0], SW[7:5], out[7:0]);
+	
+	
+	assign LEDR[7:0] = wire5[7:0];
 	
 	sevenseg s0(
 		.a(SW[0]),
@@ -22,48 +38,6 @@ module alu(SW, KEY, HEX0, HEX1,HEX2, HEX3, HEX4, HEX5, LEDR);
 		.s4(HEX0[4]),
 		.s5(HEX0[5]),
 		.s6(HEX0[6])
-	);
-	
-	sevenseg s1(
-		.a(1'b0),
-		.b(1'b0),
-		.c(1'b0),
-		.d(1'b0),
-		.s0(HEX1[0]),
-		.s1(HEX1[1]),
-		.s2(HEX1[2]),
-		.s3(HEX1[3]),
-		.s4(HEX1[4]),
-		.s5(HEX1[5]),
-		.s6(HEX1[6])
-	);
-	
-	sevenseg s2(
-		.a(SW[4]),
-		.b(SW[5]),
-		.c(SW[6]),
-		.d(SW[7]),
-		.s0(HEX2[0]),
-		.s1(HEX2[1]),
-		.s2(HEX2[2]),
-		.s3(HEX2[3]),
-		.s4(HEX2[4]),
-		.s5(HEX2[5]),
-		.s6(HEX2[6])
-	);
-	
-	sevenseg s3(
-		.a(1'b0),
-		.b(1'b0),
-		.c(1'b0),
-		.d(1'b0),
-		.s0(HEX3[0]),
-		.s1(HEX3[1]),
-		.s2(HEX3[2]),
-		.s3(HEX3[3]),
-		.s4(HEX3[4]),
-		.s5(HEX3[5]),
-		.s6(HEX3[6])
 	);
 	
 	sevenseg s4(
@@ -94,9 +68,23 @@ module alu(SW, KEY, HEX0, HEX1,HEX2, HEX3, HEX4, HEX5, LEDR);
 		.s6(HEX5[6])
 	);
 	
-	alum a1(SW[3:0], SW[7:4], KEY[2:0], wire5[7:0]);
-	assign LEDR[7:0] = wire5[7:0];
 	
+	
+endmodule
+
+module regi(d, clk, reset_n, q);
+	input [7:0] d;
+	input clk, reset_n;
+	output [7:0] q;	
+	reg [7:0] q;
+	
+	always @(posedge clk)
+	begin
+		if (reset_n == 1'b0)
+			q <= 8'b00000000;
+		else
+			q <= d;
+	end
 endmodule
 
 module fulladder(inp0, inp1, out);
@@ -189,8 +177,10 @@ module alum(a, b, c, out);
 			3'b001: out = {4'b000, w2};
 			3'b010: out = a + b; 
 			3'b011:	out = {a | b, a ^ b};
-			3'b101: out = a | b;
-			3'b100: out = {a, b};	
+			3'b100: out = a | b;			
+			3'b101: out = b << a;
+			3'b110: out = b >> a;
+			3'b111: out = a * b;
 			default : out = 8'b00000000;
 		endcase
 	end
