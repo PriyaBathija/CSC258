@@ -1,0 +1,78 @@
+|counter
+enable => enable.IN1
+reset => reset.IN8
+clock => clock.IN8
+q[0] <= atff:q0.q
+q[1] <= atff:q1.q
+q[2] <= atff:q2.q
+q[3] <= atff:q3.q
+q[4] <= atff:q4.q
+q[5] <= atff:t5.q
+q[6] <= atff:q6.q
+q[7] <= atff:q7.q
+
+
+|counter|atff:q0
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q1
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q2
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q3
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q4
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:t5
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q6
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|counter|atff:q7
+data => q.IN1
+data => q~reg0.ENA
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
