@@ -14,9 +14,9 @@ force {SW[7: 0]} 10101010 0, 10101010 100
 # KEY[0] = clk;
 force {KEY[0]} 0 0, 1 5 -r 10
 # KEY[1] = Load_n;
-force {KEY[1]} 0 10, 1 20, 0 110, 1 120
+force {KEY[1]} 1 10, 1 20, 0 110, 1 120
 # KEY[2] = ShiftRight;
-force {KEY[2]} 0 0, 1 20 -r 100
+force {KEY[2]} 0 0, 0 20 -r 100
 # KEY[3] = ASR
 force {KEY[3]} 0 0, 1 100 -r 200
 run 180ns

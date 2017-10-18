@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/priya/school/csc258/csc258/lab5/p1
+vatff
+Z1 !s110 1508034444
+!i10b 1
+!s100 OfTlKDhbMI0@?Oe7N:Pb03
+I5VR[HdNMaj`Dl9KfVaKCJ3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1508034442
+Z4 8counter.v
+Z5 Fcounter.v
+L0 139
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1508034444.000000
+Z8 !s107 counter.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|counter.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vcounter
+R1
+!i10b 1
+!s100 SzEN32@cd`B@^]Va`OD4Z0
+INUUZDf>=A_;bBg>51__ma1
+R2
+R0
+R3
+R4
+R5
+L0 60
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vmaain
+!s110 1508034210
+!i10b 1
+!s100 Km<kXIOJUZKJ<6U19DSL33
+IQSYgE=_0`zWZGKG?O>01P3
+R2
+R0
+w1508034184
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1508034210.000000
+R8
+R9
+!i113 1
+R10
+vmain
+R1
+!i10b 1
+!s100 U0^aFT6Q8>WFz5=m0MnSj3
+I=E3:jcF_:eC6kSV9le]Sf2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vsevensegx
+R1
+!i10b 1
+!s100 l5:h>QBc]cWnI;10J>R9d1
+I[772VK]9Y63F:@d?V8<UK1
+R2
+R0
+R3
+R4
+R5
+L0 45
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

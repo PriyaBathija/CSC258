@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/users/priya/school/csc258/csc258/lab4/p3
 vasrcircuit
-Z1 !s110 1507747709
+Z1 !s110 1507756643
 !i10b 1
 !s100 A:RGJWbh[8W9AoaJDELLf0
 Id]HK[>ISXSHNLH`OH3FFO1
@@ -23,7 +23,7 @@ Z6 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z7 !s108 1507747709.000000
+Z7 !s108 1507756643.000000
 Z8 !s107 shifter.v|
 Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|shifter.v|
 !i113 1

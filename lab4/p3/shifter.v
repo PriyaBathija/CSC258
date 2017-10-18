@@ -32,7 +32,7 @@ module shifter8bit(LoadVal, Load_n, ShiftRight, ASR, clk, reset_n, q);
 	shifterbit s7(
 		.load_val(LoadVal[7]),
 		.load_n(Load_n),
-		.shift(ShiftRight),
+		.shift(ShiftRight), 
 		.clk(clk),
 		.reset_n(reset_n),
 		// Leftmost input?
