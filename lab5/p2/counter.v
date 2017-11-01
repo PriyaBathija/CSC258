@@ -16,10 +16,10 @@ module main(SW, HEX0, CLOCK_50);
 	);
 	
 	sevensegx s0(
-		.a(o[0]),
-		.b(o[1]),
-		.c(o[2]),
-		.d(o[3]),
+		.a(o[3]),
+		.b(o[2]),
+		.c(o[1]),
+		.d(o[0]),
 		.s0(HEX0[0]),
 		.s1(HEX0[1]),
 		.s2(HEX0[2]),
