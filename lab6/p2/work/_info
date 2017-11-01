@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/priya/School/csc258/CSC258/lab6/p2
+vcontrol
+Z1 !s110 1509567460
+!i10b 1
+!s100 VhJ[C04Agn62NG@W]HNmX0
+IH4N9eeC=ejmVCB>S88b@T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1509567394
+Z4 8poly_function.v
+Z5 Fpoly_function.v
+L0 99
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1509567460.000000
+Z8 !s107 poly_function.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|poly_function.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+vdatapath
+R1
+!i10b 1
+!s100 6:ezC@SG3GLkS_T@KVPE]2
+I_1>g`_HFjcfA72RH^6daL2
+R2
+R0
+R3
+R4
+R5
+L0 212
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vfpga_top
+R1
+!i10b 1
+!s100 OPh4ml;o41Z`1aA[g5?012
+IbLQgTEeGl8n^oRR0EzPCz3
+R2
+R0
+R3
+R4
+R5
+L0 9
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vhex_decoder
+R1
+!i10b 1
+!s100 >XOk=Ef@3:?6Ti7NYoEl`2
+I`eL0]UIaz]kQa=O>zn=jV0
+R2
+R0
+R3
+R4
+R5
+L0 309
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vpart2
+R1
+!i10b 1
+!s100 mJU]fEif:ezB6a8LO=Xzj1
+I9JNA:fG]=<=UoVQ51G]`60
+R2
+R0
+R3
+R4
+R5
+L0 45
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10

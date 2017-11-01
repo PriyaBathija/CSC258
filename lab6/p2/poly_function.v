@@ -126,7 +126,7 @@ module control(
     always@(*)
     begin: state_table 
             case (current_state)
-                S_LOAD_A: next_state = go ? S_LOAD_A_WAIT : S_LOAD_A; 
+                S_LOAD_A: next_state = go ? S_LOAD_A_WAIT : S_LOAD_A;
                 S_LOAD_A_WAIT: next_state = go ? S_LOAD_A_WAIT : S_LOAD_B; 
                 S_LOAD_B: next_state = go ? S_LOAD_B_WAIT : S_LOAD_B; 
                 S_LOAD_B_WAIT: next_state = go ? S_LOAD_B_WAIT : S_LOAD_C; 
