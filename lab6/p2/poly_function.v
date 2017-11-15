@@ -137,7 +137,7 @@ module control(
                 S_CYCLE_0: next_state = S_CYCLE_1;
                 S_CYCLE_1: next_state = S_CYCLE_2;
 		S_CYCLE_2: next_state = S_CYCLE_3;
-		S_CYCLE_3: next_state = S_LOAD_A;
+		S_CYCLE_3: next_state = S_LOAD_A; 
             default:     next_state = S_LOAD_A;
         endcase
     end // state_table
@@ -147,7 +147,7 @@ module control(
     always @(*)
     begin: enable_signals
         // By default make all our signals 0
-        ld_alu_out = 1'b0;
+        ld_alu_out = 1'b0;h8iuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
         ld_a = 1'b0;
         ld_b = 1'b0;
         ld_c = 1'b0;
