@@ -163,7 +163,7 @@ module control(clock, resetn, load, start, writeEnable, ld_x, ld_y, control_dye)
 	output reg ld_x;
 	output reg ld_y;
 	output control_dye;
-	output reg writeEnable;
+	output writeEnable;
 	
 	reg [2:0] current_state, next_state;
 	
